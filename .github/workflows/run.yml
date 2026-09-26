@@ -3,7 +3,7 @@ name: 每天自动推送3D试机号
 on:
   schedule:
     # 国际标准时间(UTC) 10:35 对应 北京时间 18:35 (UTC+8)
-    - cron: '20 09 * * *'
+    - cron: '08 09 * * *'
   # 支持在 GitHub 网页上点按钮手动立即测试一次
   workflow_dispatch:
 
